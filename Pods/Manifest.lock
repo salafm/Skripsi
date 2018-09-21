@@ -1,0 +1,30 @@
+PODS:
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - HDAugmentedReality (2.3.0)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - HDAugmentedReality (~> 2.3)
+  - NVActivityIndicatorView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - HDAugmentedReality
+    - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  HDAugmentedReality: 2ea96cb488aa81298e6557a897b4252d62e55843
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+
+PODFILE CHECKSUM: 0ec7dfba621a8dfbce8812a8e0dd3a5f978f8784
+
+COCOAPODS: 1.5.3
