@@ -22,7 +22,7 @@
                                 <rect key="frame" x="137.5" y="318.5" width="100" height="30"/>
                                 <color key="backgroundColor" red="0.91877790179999996" green="0.90655691959999996" blue="0.47430245539999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="3QK-fn-yLt"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="3QK-fn-yLt"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -53,10 +53,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6j-Vm-5rf">
-                                <rect key="frame" x="295" y="40" width="100" height="30"/>
+                                <rect key="frame" x="275" y="40" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.70080504440000002" green="0.15686274510000001" blue="0.074509803920000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="aS0-j2-JUQ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="oZn-TM-cqb"/>
                                 </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="exitAR:" destination="iak-30-ZIU" eventType="touchUpInside" id="9vJ-dt-mIV"/>
@@ -65,8 +67,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="s6j-Vm-5rf" firstAttribute="trailing" secondItem="Kos-kZ-MhG" secondAttribute="trailing" constant="20" id="m5y-vv-Tw3"/>
-                            <constraint firstItem="s6j-Vm-5rf" firstAttribute="top" secondItem="Kos-kZ-MhG" secondAttribute="top" constant="20" id="xyp-Q7-SOi"/>
+                            <constraint firstItem="s6j-Vm-5rf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Kos-kZ-MhG" secondAttribute="leading" symbolic="YES" id="7Og-nX-iek"/>
+                            <constraint firstItem="Kos-kZ-MhG" firstAttribute="trailing" secondItem="s6j-Vm-5rf" secondAttribute="trailing" id="dX1-7E-r8l"/>
+                            <constraint firstItem="s6j-Vm-5rf" firstAttribute="top" secondItem="Kos-kZ-MhG" secondAttribute="top" constant="20" id="iNf-L8-bUK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Kos-kZ-MhG"/>
                     </view>
