@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		403640B7C16461EEB4E9A0B0 /* Pods_SkripsiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D521AFDF6116C1AF1901ACD /* Pods_SkripsiTests.framework */; };
-		62D5207C709785CDB6813505 /* Pods_SkripsiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A163BE43C1C0625CAFBE34 /* Pods_SkripsiUITests.framework */; };
-		8C9700D5F3285F153D410625 /* Pods_Skripsi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A3D048BF8C428E205B30C6 /* Pods_Skripsi.framework */; };
+		32EB5C6875474F230A92AFFE /* Pods_SkripsiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C40D5A63990A21E4A85507 /* Pods_SkripsiTests.framework */; };
+		7DB03EDD2C5AC2ADA6477263 /* Pods_Skripsi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4C679A0A122E580248204F /* Pods_Skripsi.framework */; };
+		C5DAA213914BD21DC65CB29A /* Pods_SkripsiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2BB3953ABD8154B60452CD /* Pods_SkripsiUITests.framework */; };
 		ED5B14DA213E69640052D18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5B14D8213E69640052D18F /* Main.storyboard */; };
 		ED5B14DC213E69660052D18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5B14DB213E69660052D18F /* Assets.xcassets */; };
 		ED5B14DF213E69660052D18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5B14DD213E69660052D18F /* LaunchScreen.storyboard */; };
@@ -43,15 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0504BA4F92D9D94B28DA57F2 /* Pods-SkripsiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkripsiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkripsiUITests/Pods-SkripsiUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		06A3D048BF8C428E205B30C6 /* Pods_Skripsi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skripsi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		269F9A649645069B516177F9 /* Pods-Skripsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skripsi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skripsi/Pods-Skripsi.debug.xcconfig"; sourceTree = "<group>"; };
-		3D521AFDF6116C1AF1901ACD /* Pods_SkripsiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkripsiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A0C45E9F7E0F065E7196932 /* Pods-SkripsiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkripsiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkripsiTests/Pods-SkripsiTests.release.xcconfig"; sourceTree = "<group>"; };
-		64A163BE43C1C0625CAFBE34 /* Pods_SkripsiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkripsiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A020429AF1855294375EB86F /* Pods-Skripsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skripsi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skripsi/Pods-Skripsi.release.xcconfig"; sourceTree = "<group>"; };
-		CDEB26BC7ADFE0D531C64946 /* Pods-SkripsiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkripsiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkripsiUITests/Pods-SkripsiUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D9162564E078562DE53CB2E8 /* Pods-SkripsiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkripsiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkripsiTests/Pods-SkripsiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09753638E99C9CEF413724B6 /* Pods-SkripsiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkripsiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkripsiTests/Pods-SkripsiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D12CF925A12765067060CD0 /* Pods-Skripsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skripsi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skripsi/Pods-Skripsi.release.xcconfig"; sourceTree = "<group>"; };
+		291DD448FD7F9DCE32302C04 /* Pods-SkripsiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkripsiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkripsiUITests/Pods-SkripsiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41E359CFF4B18DA1C8D60FC4 /* Pods-SkripsiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkripsiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkripsiUITests/Pods-SkripsiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C2BB3953ABD8154B60452CD /* Pods_SkripsiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkripsiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4C679A0A122E580248204F /* Pods_Skripsi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skripsi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8921BCB646BD6A727689FE3F /* Pods-SkripsiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkripsiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkripsiTests/Pods-SkripsiTests.release.xcconfig"; sourceTree = "<group>"; };
+		96C322A595261061D8CD036B /* Pods-Skripsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skripsi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skripsi/Pods-Skripsi.debug.xcconfig"; sourceTree = "<group>"; };
 		ED5B14D1213E69640052D18F /* Skripsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skripsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5B14D9213E69640052D18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED5B14DB213E69660052D18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +70,7 @@
 		ED94A4C32150B0A9009D4D82 /* SceneNodeCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneNodeCreator.swift; sourceTree = "<group>"; };
 		ED94A4C42150B0AA009D4D82 /* ReachabilityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityHelper.swift; sourceTree = "<group>"; };
 		ED94A4CD2150B920009D4D82 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9C40D5A63990A21E4A85507 /* Pods_SkripsiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkripsiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9700D5F3285F153D410625 /* Pods_Skripsi.framework in Frameworks */,
+				7DB03EDD2C5AC2ADA6477263 /* Pods_Skripsi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403640B7C16461EEB4E9A0B0 /* Pods_SkripsiTests.framework in Frameworks */,
+				32EB5C6875474F230A92AFFE /* Pods_SkripsiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,34 +94,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D5207C709785CDB6813505 /* Pods_SkripsiUITests.framework in Frameworks */,
+				C5DAA213914BD21DC65CB29A /* Pods_SkripsiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A265446A69206A9BE9E6F28 /* Frameworks */ = {
+		1F952F6F9EA288A94DFFA707 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06A3D048BF8C428E205B30C6 /* Pods_Skripsi.framework */,
-				3D521AFDF6116C1AF1901ACD /* Pods_SkripsiTests.framework */,
-				64A163BE43C1C0625CAFBE34 /* Pods_SkripsiUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		60B993D205C55EF06388F280 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				269F9A649645069B516177F9 /* Pods-Skripsi.debug.xcconfig */,
-				A020429AF1855294375EB86F /* Pods-Skripsi.release.xcconfig */,
-				D9162564E078562DE53CB2E8 /* Pods-SkripsiTests.debug.xcconfig */,
-				5A0C45E9F7E0F065E7196932 /* Pods-SkripsiTests.release.xcconfig */,
-				0504BA4F92D9D94B28DA57F2 /* Pods-SkripsiUITests.debug.xcconfig */,
-				CDEB26BC7ADFE0D531C64946 /* Pods-SkripsiUITests.release.xcconfig */,
+				96C322A595261061D8CD036B /* Pods-Skripsi.debug.xcconfig */,
+				0D12CF925A12765067060CD0 /* Pods-Skripsi.release.xcconfig */,
+				09753638E99C9CEF413724B6 /* Pods-SkripsiTests.debug.xcconfig */,
+				8921BCB646BD6A727689FE3F /* Pods-SkripsiTests.release.xcconfig */,
+				41E359CFF4B18DA1C8D60FC4 /* Pods-SkripsiUITests.debug.xcconfig */,
+				291DD448FD7F9DCE32302C04 /* Pods-SkripsiUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		95E934F42151A26DC46EACDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D4C679A0A122E580248204F /* Pods_Skripsi.framework */,
+				F9C40D5A63990A21E4A85507 /* Pods_SkripsiTests.framework */,
+				5C2BB3953ABD8154B60452CD /* Pods_SkripsiUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		ED5B14C8213E69640052D18F = {
@@ -131,8 +131,8 @@
 				ED5B14E8213E69660052D18F /* SkripsiTests */,
 				ED5B14F3213E69660052D18F /* SkripsiUITests */,
 				ED5B14D2213E69640052D18F /* Products */,
-				60B993D205C55EF06388F280 /* Pods */,
-				0A265446A69206A9BE9E6F28 /* Frameworks */,
+				1F952F6F9EA288A94DFFA707 /* Pods */,
+				95E934F42151A26DC46EACDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,12 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5B14F9213E69660052D18F /* Build configuration list for PBXNativeTarget "Skripsi" */;
 			buildPhases = (
-				B30F007064C4E027F4B23EFC /* [CP] Check Pods Manifest.lock */,
+				0273B7AA996CC6B2713A6787 /* [CP] Check Pods Manifest.lock */,
 				ED5B14CD213E69640052D18F /* Sources */,
 				ED5B14CE213E69640052D18F /* Frameworks */,
 				ED5B14CF213E69640052D18F /* Resources */,
-				861EE12726770A3F8794EFCE /* [CP] Embed Pods Frameworks */,
-				B1F5F8DC417117E89204B4E6 /* [CP] Copy Pods Resources */,
+				69C2D080AC3DE45A43A28398 /* [CP] Embed Pods Frameworks */,
+				37E024E0CBD8A7CE7DF3C393 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,7 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5B14FC213E69660052D18F /* Build configuration list for PBXNativeTarget "SkripsiTests" */;
 			buildPhases = (
-				314E43EED0043B5B52016D66 /* [CP] Check Pods Manifest.lock */,
+				A87CBCB7F0E72BFADCF07595 /* [CP] Check Pods Manifest.lock */,
 				ED5B14E1213E69660052D18F /* Sources */,
 				ED5B14E2213E69660052D18F /* Frameworks */,
 				ED5B14E3213E69660052D18F /* Resources */,
@@ -229,7 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5B14FF213E69660052D18F /* Build configuration list for PBXNativeTarget "SkripsiUITests" */;
 			buildPhases = (
-				10E25BDD35A31F4DE2A0F675 /* [CP] Check Pods Manifest.lock */,
+				4A6069405104A7DE9D8C34E0 /* [CP] Check Pods Manifest.lock */,
 				ED5B14EC213E69660052D18F /* Sources */,
 				ED5B14ED213E69660052D18F /* Frameworks */,
 				ED5B14EE213E69660052D18F /* Resources */,
@@ -323,7 +323,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		10E25BDD35A31F4DE2A0F675 /* [CP] Check Pods Manifest.lock */ = {
+		0273B7AA996CC6B2713A6787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skripsi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37E024E0CBD8A7CE7DF3C393 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Skripsi/Pods-Skripsi-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skripsi/Pods-Skripsi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6069405104A7DE9D8C34E0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,25 +377,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		314E43EED0043B5B52016D66 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SkripsiTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		861EE12726770A3F8794EFCE /* [CP] Embed Pods Frameworks */ = {
+		69C2D080AC3DE45A43A28398 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,25 +397,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skripsi/Pods-Skripsi-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1F5F8DC417117E89204B4E6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Skripsi/Pods-Skripsi-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skripsi/Pods-Skripsi-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B30F007064C4E027F4B23EFC /* [CP] Check Pods Manifest.lock */ = {
+		A87CBCB7F0E72BFADCF07595 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,7 +408,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Skripsi-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SkripsiTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -600,7 +600,7 @@
 		};
 		ED5B14FA213E69660052D18F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 269F9A649645069B516177F9 /* Pods-Skripsi.debug.xcconfig */;
+			baseConfigurationReference = 96C322A595261061D8CD036B /* Pods-Skripsi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -621,7 +621,7 @@
 		};
 		ED5B14FB213E69660052D18F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A020429AF1855294375EB86F /* Pods-Skripsi.release.xcconfig */;
+			baseConfigurationReference = 0D12CF925A12765067060CD0 /* Pods-Skripsi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -641,7 +641,7 @@
 		};
 		ED5B14FD213E69660052D18F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9162564E078562DE53CB2E8 /* Pods-SkripsiTests.debug.xcconfig */;
+			baseConfigurationReference = 09753638E99C9CEF413724B6 /* Pods-SkripsiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -663,7 +663,7 @@
 		};
 		ED5B14FE213E69660052D18F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A0C45E9F7E0F065E7196932 /* Pods-SkripsiTests.release.xcconfig */;
+			baseConfigurationReference = 8921BCB646BD6A727689FE3F /* Pods-SkripsiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -685,7 +685,7 @@
 		};
 		ED5B1500213E69660052D18F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0504BA4F92D9D94B28DA57F2 /* Pods-SkripsiUITests.debug.xcconfig */;
+			baseConfigurationReference = 41E359CFF4B18DA1C8D60FC4 /* Pods-SkripsiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -706,7 +706,7 @@
 		};
 		ED5B1501213E69660052D18F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDEB26BC7ADFE0D531C64946 /* Pods-SkripsiUITests.release.xcconfig */;
+			baseConfigurationReference = 291DD448FD7F9DCE32302C04 /* Pods-SkripsiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

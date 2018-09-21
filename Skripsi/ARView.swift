@@ -345,7 +345,7 @@ extension ARView {
         let xDelta = toPoint.x - fromPoint.x
         let zDelta = toPoint.z - fromPoint.z
         if xDelta != 0 || zDelta != 0 {
-            if fabs(xDelta) > fabs(zDelta) {
+            if abs(xDelta) > abs(zDelta) {
                 direction = xDelta > 0 ? ArrowDirection.right : ArrowDirection.left
             } else {
                 direction = zDelta > 0 ? ArrowDirection.backwards : ArrowDirection.towards  // -ve Z axis
